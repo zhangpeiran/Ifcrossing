@@ -1,7 +1,7 @@
 CC=g++
 SRCS=source.cpp
 OBJS=$(SRCS:.cpp=.o)
-EXEC=Ratiotools
+EXEC=Ifcrossing
 start:$(OBJS)
 	$(CC) -o $(EXEC) $(OBJS)
 .cpp.o:
